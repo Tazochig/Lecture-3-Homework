@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <div style="background-color: blue;">
+        <form >
+            <div>
+                <label for="name" style="color: red;">სახელი</label>
+                <INput type="text" placeholder="სახელი"></INput>
+            </div>
+            <div>
+                <label for="lastname" style="color: red;">გვარი</label>
+                <INput type="text" placeholder="გვარი"></INput>
+            </div>
+            <div >
+                <label for="number" style="color: red;">ნომერი</label>
+                <INput type="number" placeholder="ტელეფონის ნომერი" min="500000000" max="599999999" style="width: 150px;"></INput>
+            </div>
+            <div>
+                <label for="email" style="color: red;">Mail</label>
+                <INput type="email" placeholder="email"></INput>
+            </div>
+            <div>
+                <label for="password" style="color: red;">Password</label>
+                <INput type="password" placeholder="პაროლი" maxlength="8" minlength="3"></INput>
+            </div>
+            <div style="color: white;">
+                <h4>მიუთითეთ თქვენი სქესი</h4>
+                <input type="radio" id="კაცი" name="Gender">
+                <label for="კაცი">კაცი</label>
+                <input type="radio" id="ქალი" name="Gender">
+                <label for="ქალი">ქალი</label>
+                <input type="radio" id="რაღაცა" name="Gender">
+                <label for="რაღაცა">რაღაცა</label>
+            </div>
+
+            <div>
+                <input type="submit" style="font-size: 20px;">
+                <a href="index.html" style="color: aqua;">--->უკან დაბრუნება<---</a>
+            </div>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
